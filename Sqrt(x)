@@ -1,0 +1,10 @@
+class Solution {
+    public int mySqrt(int x) {
+        int Ans;
+        if(x==0)
+            return x;
+        else
+            Ans=(int)Math.pow(x,0.5);
+            return Ans;
+    }
+}
